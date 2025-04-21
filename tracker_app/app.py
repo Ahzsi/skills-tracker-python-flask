@@ -126,6 +126,10 @@ def find_first_project_with(skill_name):
 
 # Launch the Flask server
 if __name__ == '__main__':
-    # On deployment (e.g. Render), use the port provided by the environment
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    # Uncomment when running locally, comment when deploying to Render
+    app.run(debug=True)
+
+    #Uncomment when deploying to Render, comment when running locallu
+    #port = int(os.environ.get('PORT', 5000))
+    #app.run(host='0.0.0.0', port=port)
+    #'0.0.0.0' means it is available publically, which is needed for Render

@@ -54,10 +54,12 @@ This is a simple web app built with Python and Flask. It lets you list the **ski
 
 2. Uncomment this line in app.py:
         app.run(debug=True)
+        #Note: uncomment only if your running this locally. Otherwise this code should stay commented.
 
 3. Comment the following section:
         port = int(os.environ.get('PORT', 5000))
         app.run(host='0.0.0.0', port=port)
+        #Note: comment this if not running locally. If running this on Render, then uncomment it.
 
 4. (Optional) Create and activate a virtual environment:
         python -m venv venv
