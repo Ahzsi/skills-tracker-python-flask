@@ -20,44 +20,38 @@ app = Flask(__name__)
 tracker = {
     "skills": [
         {"name": "Python", "experience": 3},
-        {"name": "Flask", "experience": 2},
-        {"name": "SQL", "experience": 2},
-        {"name": "HTML", "experience": 4},
-        {"name": "CSS", "experience": 4},
-        {"name": "JavaScript", "experience": 3},
-        {"name": "Git", "experience": 5},
-        {"name": "API", "experience": 2}
+       
     ],
     "projects": [
         {
             "title": "Portfolio Website",
             "tech": "HTML, CSS, JavaScript",
-            "link": "https://yourportfolio.com"
+            "link": "https://github.com/Ahzsi/Ahzsi-Portfolio"
         },
         {
             "title": "Todo App",
             "tech": "Python, Flask, SQL, HTML, CSS",
-            "link": "https://github.com/yourusername/todo-app"
+            "link": "In Progress"
         },
         {
             "title": "Weather Dashboard",
             "tech": "Python, Flask, API, JavaScript, HTML, CSS",
-            "link": "https://github.com/yourusername/weather-dashboard"
+            "link": "In Progress"
         },
         {
             "title": "Blog CMS",
             "tech": "Flask, SQL, HTML, CSS",
-            "link": "https://github.com/yourusername/blog-cms"
+            "link": "In Progress"
         },
         {
             "title": "Git Practice Project",
             "tech": "Python, Git",
-            "link": "https://github.com/yourusername/git-practice"
+            "link": "In Progress"
         },
         {
             "title": "API Data Visualizer",
             "tech": "Python, API, JavaScript",
-            "link": "https://github.com/yourusername/api-visualizer"
+            "link": "In Progress"
         }
     ]
 }
